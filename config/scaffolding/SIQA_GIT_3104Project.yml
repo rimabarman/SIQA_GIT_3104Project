@@ -11,10 +11,17 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: DADA_GlobalVariable1
+  gitServerName: MJANGit
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.siqa_git_3104.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1_RB_3104
   packages:
   - name: SIQA_GIT_3104Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -24,6 +31,8 @@ services:
   packages:
   - name: SIQA_GIT_3104Project
     version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -32,6 +41,8 @@ services:
   packages:
   - name: SIQA_GIT_3104Project
     version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -39,6 +50,8 @@ services:
 - serviceName: project.siqa_git_3104.integrations:Sum
   packages:
   - name: SIQA_GIT_3104Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -55,6 +68,8 @@ services:
 - serviceName: project.siqa_git_3104.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_3104Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34

@@ -1,6 +1,13 @@
 version: "1.0"
 projectName: SIQA_GIT_3104Project
 runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Cal_deepcloneTest
+    type: workflow
+    uid: fl05b9a5e80cc44d52b5d2e3cf7e21d6f3
+    stepId: a0
+    reference: project.siqa_git_3104.integrations:deepclonetest
 - runtimeAlias: SIQA_ERT_3104
   assets:
   - name: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.integrations:conntest

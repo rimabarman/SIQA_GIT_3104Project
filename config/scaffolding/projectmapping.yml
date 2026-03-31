@@ -1,0 +1,19 @@
+version: "1.0"
+projectName: SIQA_GIT_3104Project
+runtimes:
+- runtimeAlias: SIQA_ERT_3104
+  assets:
+  - name: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.integrations:conntest
+    type: flow
+    stepId: /0
+    reference: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.WmPackageServiceProvider.GB_1:readGlobalvariable
+- runtimeAlias: SIQAMCSPStageTest3009
+  assets:
+  - name: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.integrations:conntest
+    type: flow
+    stepId: /1
+    reference: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.integrations:conntest
+    type: flow
+    stepId: /2
+    reference: fld_156851932_stage00.projects.flea72841983314c35bf9a7c5523b166de.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
